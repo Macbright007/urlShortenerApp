@@ -111,3 +111,214 @@
  .form__container button:hover {
     background-color: #825508;
  }
+
+ @keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+.background__Anime {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #e0dbe6;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background__Anime span {
+    width: 10vmin;
+    height: 10vmin;
+    border-radius: 10vmin;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move;
+    animation-duration: 35;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.background__Anime span:nth-child(0) {
+    color: #aa8622;
+    top: 70%;
+    left: 78%;
+    animation-duration: 118s;
+    animation-delay: -49s;
+    transform-origin: -8vw -13vh;
+    box-shadow: 20vmin 0 2.504220775559621vmin currentColor;
+}
+.background__Anime span:nth-child(1) {
+    color: #5e4ce6;
+    top: 5%;
+    left: 3%;
+    animation-duration: 59s;
+    animation-delay: -57s;
+    transform-origin: -14vw -13vh;
+    box-shadow: -20vmin 0 3.203548282297549vmin currentColor;
+}
+.background__Anime span:nth-child(2) {
+    color: #aa8622;
+    top: 42%;
+    left: 66%;
+    animation-duration: 119s;
+    animation-delay: -133s;
+    transform-origin: 3vw -10vh;
+    box-shadow: 20vmin 0 3.0018691154658423vmin currentColor;
+}
+.background__Anime span:nth-child(3) {
+    color: #E45A84;
+    top: 79%;
+    left: 67%;
+    animation-duration: 91s;
+    animation-delay: -50s;
+    transform-origin: 23vw -23vh;
+    box-shadow: -20vmin 0 3.436584603206532vmin currentColor;
+}
+.background__Anime span:nth-child(4) {
+    color: #aa8622;
+    top: 39%;
+    left: 68%;
+    animation-duration: 7s;
+    animation-delay: -70s;
+    transform-origin: 16vw -15vh;
+    box-shadow: -20vmin 0 2.6334820161025667vmin currentColor;
+}
+.background__Anime span:nth-child(5) {
+    color: #E45A84;
+    top: 71%;
+    left: 23%;
+    animation-duration: 56s;
+    animation-delay: -69s;
+    transform-origin: -19vw -21vh;
+    box-shadow: 20vmin 0 3.459466694759125vmin currentColor;
+}
+.background__Anime span:nth-child(6) {
+    color: #E45A84;
+    top: 33%;
+    left: 24%;
+    animation-duration: 30s;
+    animation-delay: -59s;
+    transform-origin: -22vw -2vh;
+    box-shadow: -20vmin 0 2.5615605646230315vmin currentColor;
+}
+.background__Anime span:nth-child(7) {
+    color: #5e4ce6;
+    top: 74%;
+    left: 85%;
+    animation-duration: 114s;
+    animation-delay: -118s;
+    transform-origin: -2vw 10vh;
+    box-shadow: 20vmin 0 3.2804560794362456vmin currentColor;
+}
+.background__Anime span:nth-child(8) {
+    color: #5e4ce6;
+    top: 37%;
+    left: 71%;
+    animation-duration: 95s;
+    animation-delay: -27s;
+    transform-origin: 10vw -21vh;
+    box-shadow: 20vmin 0 3.2385241997786576vmin currentColor;
+}
+.background__Anime span:nth-child(9) {
+    color: #E45A84;
+    top: 70%;
+    left: 27%;
+    animation-duration: 82s;
+    animation-delay: -41s;
+    transform-origin: 5vw 22vh;
+    box-shadow: 20vmin 0 3.4614622013620053vmin currentColor;
+}
+.background__Anime span:nth-child(10) {
+    color: #E45A84;
+    top: 19%;
+    left: 53%;
+    animation-duration: 16s;
+    animation-delay: -148s;
+    transform-origin: -10vw -1vh;
+    box-shadow: -20vmin 0 3.462191792250368vmin currentColor;
+}
+.background__Anime span:nth-child(11) {
+    color: #aa8622;
+    top: 44%;
+    left: 60%;
+    animation-duration: 132s;
+    animation-delay: -122s;
+    transform-origin: 18vw -24vh;
+    box-shadow: 20vmin 0 3.01227645184367vmin currentColor;
+}
+.background__Anime span:nth-child(12) {
+    color: #5e4ce6;
+    top: 49%;
+    left: 66%;
+    animation-duration: 30s;
+    animation-delay: -127s;
+    transform-origin: 10vw -19vh;
+    box-shadow: 20vmin 0 2.7786254773927253vmin currentColor;
+}
+.background__Anime span:nth-child(13) {
+    color: #5e4ce6;
+    top: 47%;
+    left: 41%;
+    animation-duration: 65s;
+    animation-delay: -31s;
+    transform-origin: 15vw -12vh;
+    box-shadow: -20vmin 0 3.3193077268722897vmin currentColor;
+}
+.background__Anime span:nth-child(14) {
+    color: #E45A84;
+    top: 67%;
+    left: 23%;
+    animation-duration: 87s;
+    animation-delay: -19s;
+    transform-origin: -8vw -16vh;
+    box-shadow: 20vmin 0 3.4431172063854056vmin currentColor;
+}
+.background__Anime span:nth-child(15) {
+    color: #aa8622;
+    top: 57%;
+    left: 24%;
+    animation-duration: 130s;
+    animation-delay: -102s;
+    transform-origin: -3vw 11vh;
+    box-shadow: -20vmin 0 3.466262841743834vmin currentColor;
+}
+.background__Anime span:nth-child(16) {
+    color: #5e4ce6;
+    top: 42%;
+    left: 61%;
+    animation-duration: 114s;
+    animation-delay: -37s;
+    transform-origin: 7vw -17vh;
+    box-shadow: -20vmin 0 3.1890013270129067vmin currentColor;
+}
+.background__Anime span:nth-child(17) {
+    color: #aa8622;
+    top: 44%;
+    left: 77%;
+    animation-duration: 130s;
+    animation-delay: -73s;
+    transform-origin: -22vw 15vh;
+    box-shadow: 20vmin 0 2.9413978685451196vmin currentColor;
+}
+.background__Anime span:nth-child(18) {
+    color: #E45A84;
+    top: 14%;
+    left: 45%;
+    animation-duration: 130s;
+    animation-delay: -81s;
+    transform-origin: -1vw 16vh;
+    box-shadow: -20vmin 0 2.7308908197964525vmin currentColor;
+}
+.background__Anime span:nth-child(19) {
+    color: #5e4ce6;
+    top: 16%;
+    left: 41%;
+    animation-duration: 149s;
+    animation-delay: -135s;
+    transform-origin: 25vw -7vh;
+    box-shadow: 20vmin 0 2.76751373730902vmin currentColor;
+}
